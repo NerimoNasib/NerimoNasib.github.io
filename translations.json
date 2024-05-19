@@ -1,0 +1,41 @@
+{
+    "en": {
+      "home": "Home",
+      "project": "Project",
+      "skill": "Skill",
+      "experience": "Experience",
+      "other":"Non-IT Projects",
+      "contact": "Contact me!",
+      "hello": "Nice to meet you!",
+      "intro": "Hello! I'm Ega Okta, a dedicated Computer Engineer graduate from UNDIP. I hold JLPT N2 and TOEIC 850 certificates. With expertise in C# programming, front-end development, Python, and game development, I am ready to tackle challenging projects and deliver high-quality results.",
+      "see_details": "See Details",
+      "project1_description": "A website developed to change modern kanji characters to their pre-war forms. It offers a user-friendly tool to seamlessly transform text from a contemporary style to a pre-war aesthetic.",     
+       "project2_description": "A website where you can watch videos and analyze subtitles from your local PC or mobile device. Currently, it only supports .VTT and .SRT subtitle types. (Try the site on Chromium browser!)",
+      "project3_description": "An alternative frontend site for Yande.re images. It exclusively features the latest Safe images from Yande.re.",
+      "project4_description": "Enjoy playing tunes on our website's digital piano, created using Vanilla JavaScript. Simply click the keys on the keyboard interface to produce sounds.",
+      "project5_description": "CExplore a collection of my personal projects on this website, showcasing a variety of creative endeavors.",
+      "skill_description": "Explores the skills I have acquired through study.",
+      "experience_description": "Details my work and other experiences.",
+      "other_description": "Collection of my projects outside the IT field! They encompass a diverse range of endeavors including digital art, design, music, and language learning, among others."
+    },
+    "jp": {
+      "home": "ホーム",
+      "project": "プロジェクト",
+      "skill": "スキル",
+      "experience": "経験",
+      "other":"IT以外プロジェクト",
+      "contact": "お問い合わせ",
+      "hello": "はじめまして！",
+      "intro": "はじめまして！UNDIPのコンピュータエンジニア卒の沖田衛賀と申します。日本語能力試験２級（JLPT N2）とTOEIC850点資格を持っています。C#プログラミング、フロントエンド開発、Python、ゲーム開発に精通しており、挑戦的なプロジェクトにも取り組み、高品質な結果を提供します。",
+      "see_details": "詳細を見る",
+      "project1_description": "新字体をその戦前の旧字体に変換するために開発されたウェブサイトです。現代風から戦前風に文字を簡単に変換できるツールを提供します。",
+      "project2_description": "ローカルPCやモバイルデバイスから動画を視聴し、字幕を解析できるウェブサイトです。現在、.VTTと.SRTの字幕形式にのみ対応しています。（Chromiumブラウザでのご利用をお勧めします！）",
+      "project3_description": "Yande.reの画像の代替フロントエンドサイトです。Yande.reから最新のセーフな画像のみを掲載しています。",
+      "project4_description": "Vanilla JavaScriptを使用して作成したデジタルピアノで曲を演奏しましょう。キーボードインターフェースのキーをクリックするだけで音を出すことができます。",
+      "project5_description": "さまざまな創造的な取り組みを展示する、私の個人プロジェクトのコレクションをご覧ください。",
+      "skill_description": "学習を通じて身につけたスキルを探ります。",
+      "experience_description": "仕事やその他の経験について詳細を説明します。",
+      "other_description": "IT分野以外のプロジェクトのコレクションには、デジタルアート、デザイン、音楽、そして言語学習などの多岐にわたるプロジェクトが含まれています。"
+    }
+  }
+  

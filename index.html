@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body class="body-content">
+    <header class="header-main">
+        <nav class="nav-main">
+            <h2 class="logo">個人用サイト</h2>
+            <p id="language"><a href="">🇯🇵 🇺🇸言語変換</a></p>
+            <ul>
+                <li><a href="#" data-translate="home">ホーム</a></li>
+                <li><a href="#project" data-translate="project">プロジェクト</a></li>
+                <li><a href="#skill" data-translate="skill">スキル</a></li>
+                <li><a href="#experience" data-translate="experience">経験</a></li>
+                <li><a href="#other" data-translate="other">IT以外プロジェクト</a></li>
+            </ul>
+            <a href="#" class="nav-button"  data-translate="contact">お問い合わせ</a>
+        </nav>
+    </header>
+    <main class="main-content">
+        <section class="about" id="about" >
+            <div class="div-about">
+                <img class="image-preview" src="img/image-1.png" alt="KC">
+                <p class="tategaki">――自己紹介――</p>
+                <div class="about-text">
+                    <h2 id="hover-about" class="hoverable">About me</h2>
+                    <h5 data-translate="hello">はじめまして！</h5>
+                    <p data-translate="intro">はじめまして！UNDIPのコンピュータエンジニア卒の沖田衛賀と申します。日本語能力試験２級（JLPT N2）とTOEIC850点資格を持っています。C#プログラミング、フロントエンド開発、Python、ゲーム開発に精通しており、挑戦的なプロジェクトにも取り組み、高品質な結果を提供します。</p>
+                    <p class="sns-about">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-pixiv"></i></a>
+                    </p>
+                    <button class="contact" data-translate="contact">お問い合わせ</button>
+                </div>
+            </div>
+        </section>
+        
+        <div class="project" id="project"><h1>Project</h1></div>
+
+        <section class="project-container">
+            <section class="project-list" id="project1">
+                <div class="div-about">
+                    <img class="image-preview" src="img/image-2.png" alt="KC">
+                    <p class="tategaki">――漢字変換機――</p>
+                    <div class="about-text">
+                        <h2 id="hover-about" class="hoverable">Kyuji-tai Kanji Converter</h2>
+                        <h5>漢字変換のサイトです</h5>
+                        <p data-translate="project1_description">新字体をその戦前の旧字体に変換するために開発されたウェブサイトです。現代風から戦前風に文字を簡単に変換できるツールを提供します。</p>
+                        <p class="sns-about">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-square-js"></i>
+                        </p>
+                        <a href="https://github.com/NerimoNasib" target="_blank"><button class="contact" data-translate="see_details">詳細を見る</button></a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-list" id="project2">
+                <div class="div-about">
+                    <img class="image-preview" src="img/image-2-1.png" alt="KC">
+                    <p class="tategaki">――メディアプレイヤー――</p>
+                    <div class="about-text">
+                        <h2 id="hover-about" class="hoverable">We(e)b Media Player</h2>
+                        <h5>WEBブラウザーでアニメを観る</h5>
+                        <p data-translate="project2_description">ローカルPCやモバイルデバイスから動画を視聴し、字幕を解析できるウェブサイトです。現在、.VTTと.SRTの字幕形式にのみ対応しています。（Chromiumブラウザでのご利用をお勧めします！）</p>
+                        <p class="sns-about">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-square-js"></i>
+                            <i class="fa-solid fa-file-video"></i>
+                        </p>
+                        <a href="https://github.com/NerimoNasib/WeebMediaPlayer" target="_blank"><button class="contact" data-translate="see_details">詳細を見る</button></a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-list" id="project3">
+                <div class="div-about">
+                    <img class="image-preview" src="img/image-2-2.png" alt="KC">
+                    <p class="tategaki">――代替フロントエンド――</p>
+                    <div class="about-text">
+                        <h2 id="hover-about" class="hoverable">Safede.re</h2>
+                        <h5>VueJSのYande.reフロントエンド</h5>
+                        <p data-translate="project3_description">Yande.reの画像の代替フロントエンドサイトです。Yande.reから最新のセーフな画像のみを掲載しています。</p>
+                        <p class="sns-about">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-square-js"></i>
+                            <i class="fa-brands fa-vuejs"></i>
+                        </p>
+                        <a href="https://github.com/NerimoNasib/safedere" target="_blank"><button class="contact" data-translate="see_details">詳細を見る</button></a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-list" id="project4">
+                <div class="div-about">
+                    <img class="image-preview" src="img/image-2-3.png" alt="KC">
+                    <p class="tategaki">――デジタルピアノ――</p>
+                    <div class="about-text">
+                        <h2 id="hover-about" class="hoverable">PianoJS</h2>
+                        <h5>デジタルピアノです</h5>
+                        <p data-translate="project4_description">Vanilla JavaScriptを使用して作成したデジタルピアノで曲を演奏しましょう。キーボードインターフェースのキーをクリックするだけで音を出すことができます。</p>
+                        <p class="sns-about">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-square-js"></i>
+                            <i class="fa-solid fa-music"></i>
+                        </p>
+                        <a href="https://github.com/NerimoNasib/pianohtml" target="_blank"><button class="contact" data-translate="see_details">詳細を見る</button></a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-list" id="project5">
+                <div class="div-about">
+                    <img class="image-preview" src="img/image-2-4.png" alt="KC">
+                    <p class="tategaki">――個人的サイト――</p>
+                    <div class="about-text">
+                        <h2 id="hover-about" class="hoverable">Portofolio Site</h2>
+                        <h5>当たり前だろう！！！</h5>
+                        <p data-translate="project5_description">さまざまな創造的な取り組みを展示する、私の個人プロジェクトのコレクションをご覧ください。</p>
+                        <p class="sns-about">
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-square-js"></i>
+                        </p>
+                        <a href="https://github.com/NerimoNasib" target="_blank"><button class="contact" data-translate="see_details">詳細を見る</button></a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        
+        <section class="skill" id="skill">
+            <div class="div-about">
+                <img class="image-preview" src="img/image-3.png" alt="KC">
+                <p class="tategaki">――能力――</p>
+                <div class="about-text">
+                    <h2>Skill</h2>
+                    <h5>ITト他ノ能力</h5>
+                    <p data-translate="skill_description">学習を通じて身につけたスキルを探ります。</p>
+                    <a href="https://github.com/NerimoNasib" target="_blank"><button class="contact" data-translate="see_details">詳細を見る</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience" id="experience">
+            <div class="div-about">
+                <img class="image-preview" src="img/image-4.png" alt="KC">
+                <p class="tategaki">――経験――</p>
+                <div class="about-text">
+                    <h2>Experience</h2>
+                    <h5>経験</h5>
+                    <p data-translate="experience_description">仕事やその他の経験について詳細を説明します。</p>
+                    <a href="https://github.com/NerimoNasib" target="_blank"><button class="contact" data-translate="see_details">詳細を見る</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="other" id="other">
+            <div class="div-about">
+                <img class="image-preview" src="img/image-5.png" alt="KC">
+                <p class="tategaki">――その他――</p>
+                <div class="about-text">
+                    <h2>Other</h2>
+                    <h5>ITの以外プロジェクト</h5>
+                    <p data-translate="other_description">IT分野以外のプロジェクトのコレクションには、デジタルアート、デザイン、音楽、そして言語学習などの多岐にわたるプロジェクトが含まれています。</p>
+                    <a href="https://github.com/NerimoNasib" target="_blank"><button class="contact" data-translate="see_details">詳細を見る</button></a>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <a href="#" class="scroll-to-top">↑</a>
+    <footer>
+        <p>全力と汗と涙で作りました</p>
+        <div class="sns-footer">
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-pixiv"></i></a>
+        </div>
+    </footer>
+    <script src="translate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
